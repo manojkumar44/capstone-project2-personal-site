@@ -743,15 +743,13 @@ header {
   }
 
 .overlay-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  }
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: static;
+	/* transform: translate(-50%, -50%); */
+	text-align: center;
+}
 
 .overlay-menu li {
 	display: inline-block;
@@ -812,8 +810,8 @@ header {
 	transform: translateY(0%);
 	width: 20%;
 	left: 0;
-	height: 20%;
-	}
+	height: auto;
+}
 
 }
 
@@ -874,4 +872,21 @@ header {
 	height: 115px;
 	}
 
+}
+
+@media (max-width: 578px) {
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+	.logo {
+	max-width: 185px;
+	padding: 10px 0px;
+}
+	
+	.hero { height: 65vh; }
 }
