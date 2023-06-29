@@ -874,6 +874,12 @@ header {
 
 }
 
+@media (max-width: 648px) {
+.contact-btn {
+	display: none;
+}
+}
+
 @media (max-width: 578px) {
 header {
 	display: flex;
