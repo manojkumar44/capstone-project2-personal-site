@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./assets/css/override-reboot-scss-styles.css" type="text/css" media="all">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
@@ -13,7 +16,8 @@
 
 <body>
 <header>
-    <img src="./assets/img/mk-portfolio-logo.png" alt="Manoj Kumar Freelance Web Developer Site Logo" class="logo">
+    <a href="#"><img src="./assets/img/mk-portfolio-logo.png" alt="Manoj Kumar Freelance Web Developer Site Logo"
+                     class="logo"></a>
     <label for="menu-toggle" class="menu-icon">MENU</label>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <nav class="overlay-menu">
@@ -22,12 +26,11 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#resume">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <a class="contact-btn">Need Some Help?</a>
+    <a class="contact-btn" id="contact-btn">Need Some Help?</a>
 </header>
 
 <section class="hero">
@@ -50,140 +53,247 @@
     </div>
 </section>
 
-<section class="main-container two-col-container" id="about">
-    <div class="content-grouper">
-        <h2>
-            <mark class="mark1">Passionate Web Developer</mark>
-            & JavaScript Enthusiast
-        </h2>
-        <p class="margin-bottom-custom">Hello and a very warm welcome to you all. I'm Manoj, a
-            <mark class="mark2">Freelance Web Developer based in West London</mark>
-            with over 15 years of experience in designing and building websites and web applications. My preferred stack
-            is WAMP (Windows, Apache, MySQL &amp; PHP) and
-            I am at home using PHP as my back-end language to develop dynamic web applications.
-            I have collaborated with a diverse range of clients, spanning various industry sectors, including small
-            start-ups to large businesses. I am currently actively upskilling while successfully managing freelance
-            projects, with the ultimate aim of showcasing my expertise to prospective employers. My primary goal is to
-            collaborate with like-minded professionals in the dynamic field of web development.
-        </p>
-        <a href="#skills" class="cta-btn">View my Skills</a> <a href="#projects" class="cta-btn">View my Projects</a>
-    </div>
+<section class="container-fluid container-lg container-md">
+    <section class="about padding-top-bottom-100" id="about">
+        <div class="row about-row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h2 class="section-heading">
+                    <mark class="mark1">Passionate Web Developer</mark>
+                    & JavaScript Enthusiast
+                </h2>
+                <p class="margin-bottom-custom">Hello and a very warm welcome to you all. I'm Manoj, a
+                    <mark class="mark2">Freelance Web Developer based in West London</mark>
+                    with over 15 years of experience in designing and building websites and web applications. My
+                    preferred stack
+                    is WAMP (Windows, Apache, MySQL &amp; PHP) and
+                    I am at home using PHP as my back-end language to develop dynamic web applications.
+                    I have collaborated with a diverse range of clients, spanning various industry sectors, including
+                    small
+                    start-ups to large businesses. I am currently actively upskilling while successfully managing
+                    freelance
+                    projects, with the ultimate aim of showcasing my expertise to prospective employers. My primary goal
+                    is to
+                    collaborate with like-minded professionals in the dynamic field of web development.
+                </p>
+                <a href="#skills" class="cta-btn">View my Skills</a> <a href="#projects" class="cta-btn">View my
+                Projects</a>
+            </div>
 
-    <div class="side-img">
-        <img src="./assets/img/hqs_bespoke_html_css_responsive_design.png"
-             alt="screenshots of a past website in responsive mode">
-    </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="side-img">
+                    <img src="./assets/img/hqs_bespoke_html_css_responsive_design.png"
+                         alt="screenshots of a past website in responsive mode">
+                </div>
+            </div>
+        </div>
+    </section>
 
-</section>
+    <section class="skills padding-top-bottom-100" id="skills">
+        <div class="row skills-row">
 
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="skills-table">
+                    <div class="skill-box skill-box-1">
 
-<section class="main-container two-col-container" id="skills">
+                    </div>
 
-    <div class="skills-table">
-        <div class="skill-box skill-box-1">
+                    <div class="skill-box skill-box-2">
 
+                    </div>
+
+                    <div class="skill-box skill-box-3">
+
+                    </div>
+
+                    <div class="skill-box skill-box-4">
+
+                    </div>
+
+                    <div class="skill-box skill-box-5">
+
+                    </div>
+
+                    <div class="skill-box skill-box-6">
+
+                    </div>
+
+                    <div class="skill-box skill-box-7">
+
+                    </div>
+
+                    <div class="skill-box skill-box-8">
+
+                    </div>
+
+                    <div class="skill-box skill-box-9">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <h2 class="section-heading">
+                    <mark class="mark1">My Skills</mark> &amp; Tool Kit
+                </h2>
+                <p>Despite my continuous learning and upskilling efforts, I possess a high level of proficiency in
+                    utilizing
+                    various tools and technologies. These enable me to design, construct, and deploy comprehensive
+                    online
+                    business solutions for a diverse range of clients. I am adept at hand-coding web layouts and possess
+                    a
+                    strong
+                    command of CSS. This expertise empowers me to create intricate yet efficient web-based dashboards,
+                    UI
+                    elements,
+                    and page layouts that seamlessly adapt to different devices, regardless of screen limitations.</p>
+                <p class="margin-bottom-custom">To enhance user experience and develop websites and applications, I
+                    leverage the
+                    capabilities of JavaScript
+                    and/or jQuery. Furthermore, I bring valuable knowledge in PHP and MySQL to the table. This
+                    proficiency
+                    enables me to build robust web-based applications and utilize the WordPress CMS platform
+                    effectively.</p>
+                <a href="#resume" class="cta-btn-alt">View my Resume</a> <a href="#contact" class="cta-btn">Get in touch</a>
+            </div>
         </div>
 
-        <div class="skill-box skill-box-2">
+    </section>
 
+
+    <section class="portfolio padding-top-bottom-100" id="portfolio">
+        <div class="row portfolio-row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2 class="section-heading">Some of the <mark class="mark1">Cool Projects</mark> I've been working on..</h2>
+                <div class="portfolio-container">
+
+                    <div class="portfolio-item-container">
+                        <div class="portfolio-item project-1 quantum-paranormal">
+                            <div class="work-desc"><h6>I created a unique website for a client who desired a clean and nostalgic design reminiscent
+                                of the beloved table layout sites from the 90s. The fully responsive site features a background video and audio
+                                that can be manually toggled on or off. Utilizing subtle CSS3 animations and transitions, the user experience is
+                                enhanced for visitors. Additionally, there are plans to eventually transform the site into a single page
+                                application (SPA) in the future.</h6>
+                                <a class="cta-btn-alt" href="https://www.quantum-paranormal.co.uk"
+                                   target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item-container">
+                        <div class="portfolio-item project-2">
+                            <div class="work-desc"><h6>Expert will writing is a recently established small start-up business who focus exclusively on
+                                drafting Wills for clients. I was commissioned the task of designing and build their official business web
+                                presence. The site was designed and built using Elementor, a website builder for Wordpress.</h6>
+                                <a class="cta-btn-alt" href="https://www.expertwillwriting.co.uk" target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item-container">
+                        <div class="portfolio-item project-3">
+                            <div class="work-desc"><h6>Here is a screenshot of an ongoing project—a lo-fidelity prototype—showcasing the development of
+                                my digital agency's website, Spiral Digital. Please note that this screenshot may not accurately represent the
+                                current appearance of the home page concept as it captures a specific moment in time. However, I assure you that
+                                this project is actively in progress, reflecting the evolution of my business since its establishment in 2016.</h6>
+                                <a class="cta-btn-alt" href="https://www.spiraldigital.co.uk"
+                                   target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item-container">
+                        <div class="portfolio-item project-4">
+                            <div class="work-desc"><h6>During the pandemic lockdown, I took on a personal project to create a JavaScript
+                                slider that accurately emulates the behavior of a genuine slider. Utilizing the 'translateX' property in
+                                CSS, I developed a simplistic yet effective approach to seamlessly switch slides by a fixed width. This
+                                project not only enhanced my web development skills but also demonstrated my adaptability and commitment
+                                to continuous growth in the field.</h6>
+                                <a class="cta-btn-alt" href="https://manojkumar44.github.io/js-translateX-slider/" target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item-container">
+                        <div class="portfolio-item project-5">
+                            <div class="work-desc"><h6>I successfully completed a project from Angela Yu's course, "The
+                                Complete
+                                2023 Web Development Bootcamp." The project involved replicating the Mondrian painting
+                                using CSS
+                                Grid, encouraging us to put into use our understanding of Grid basics, placement and sizing. This project was both fun and challenging and enhanced
+                            my understanding of using CSS Grid.</h6>
+                                <a class="cta-btn-alt" href="https://manojkumar44.github.io/css-grid-mondrian-painting/"
+                                   target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="portfolio-item-container">
+                        <div class="portfolio-item project-6">
+                            <div class="work-desc"><h6>Skills2Pass is a West London-based driving school led by a skilled Female Driving Instructor. As the website's original creator, I recently redesigned it using WordPress, incorporating numerous exciting features. By utilizing Advanced Custom Fields (ACF) for enhanced functionality and carefully crafting a bespoke design that aligns flawlessly with their unique brand identity, every aspect of the website has been meticulously tailored.</h6>
+                                <a class="cta-btn-alt" href="https://www.skills2pass.co.uk" target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>      <!-- End of portfolio-container -->
+            </div>
+    </section>
+    <section class="contact padding-top-bottom-100" id="contact">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <p>Please don't hesitate to reach out if you have any questions or need assistance.
+                    I'm here to help and would be delighted to answer any queries you may have. If you have
+                    any exciting projects that you'd like assistance with or if you're interested in collaborating,
+                    just fill out the contact form on the right-hand side (or below if you're viewing on a phone),
+                    and I'll get back to you promptly. Looking forward to connecting with you soon!</p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <form class="styled-form">
+                    <h2>Contact Form</h2>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div>
         </div>
-
-        <div class="skill-box skill-box-3">
-
-        </div>
-
-        <div class="skill-box skill-box-4">
-
-        </div>
-
-        <div class="skill-box skill-box-5">
-
-        </div>
-
-        <div class="skill-box skill-box-6">
-
-        </div>
-
-        <div class="skill-box skill-box-7">
-
-        </div>
-
-        <div class="skill-box skill-box-8">
-
-        </div>
-    </div>
-    <div class="content-grouper">
-        <h2>
-            <mark class="mark1">My Skills</mark> &amp; Tool Kit
-        </h2>
-        <p>Despite my continuous learning and upskilling efforts, I possess a high level of proficiency in utilizing
-            various tools and technologies. These enable me to design, construct, and deploy comprehensive online
-            business solutions for a diverse range of clients. I am adept at hand-coding web layouts and possess a
-            strong
-            command of CSS. This expertise empowers me to create intricate yet efficient web-based dashboards, UI
-            elements,
-            and page layouts that seamlessly adapt to different devices, regardless of screen limitations.</p>
-        <p class="margin-bottom-custom">To enhance user experience and develop websites and applications, I leverage the
-            capabilities of JavaScript
-            and/or jQuery. Furthermore, I bring valuable knowledge in PHP and MySQL to the table. This proficiency
-            enables me to build robust web-based applications and utilize the WordPress CMS platform effectively.</p>
-        <a href="#resume" class="cta-btn">View my Resume</a> <a href="#contact" class="cta-btn">Get in touch</a>
-    </div>
-
-</section>
-
-
-<section class="main-container gallery-container" id="portfolio">
-    <div class="big-square">
-        <div class="work-desc"><h6>A small personal project of mines I did during pandemic lockdown, my first serious attempt
-    at creating something that mimicked or behaved like an actual JS slider. It is basic and uses the css 'translateX' property to
-    switch slides by a fixed width.</h6>
-        <a class="cta-btn-alt" href="https://manojkumar44.github.io/js-translateX-slider/" target="_blank">View
-            Project</a>
-        </div>
-    </div>
-    <div class="vertical-rect"></div>
-    <div class="horizontal-rect">
-        <div class="work-desc"><h6>A small personal project of mines I did during pandemic lockdown, my first serious attempt
-    at creating something that mimicked or behaved like an actual JS slider. It is basic and uses the css 'translateX' property to
-    switch slides by a fixed width.</h6>
-        <a class="cta-btn-alt" href="https://manojkumar44.github.io/js-translateX-slider/" target="_blank">View
-            Project</a>
-        </div>
-    </div>
-    <div class="small-square">
-        <div class="work-desc"><h6>A website designed and built on Wordpress for a female driving instructor.</h6>
-        <a class="cta-btn-alt" href="https://www.skills2pass.co.uk" target="_blank">View
-            Project</a>
-        </div>
-    </div>
-    <div class="horizontal-rect2">
-        <div class="work-desc"><h6>I successfully completed a project from Angela Yu's course, "The Complete
-        2023 Web Development Bootcamp." The project involved replicating the Mondrian painting using CSS Grid.</h6>
-            <a class="cta-btn-alt" href="https://manojkumar44.github.io/css-grid-mondrian-painting/" target="_blank">View Project</a>
-        </div>
-    </div>
-    <div class="big-square2">
-        <div class="work-desc"><h6>A small personal project of mines I did during pandemic lockdown, my first serious attempt
-    at creating something that mimicked or behaved like an actual JS slider. It is basic and uses the css 'translateX' property to
-    switch slides by a fixed width.</h6>
-        <a class="cta-btn-alt" href="https://manojkumar44.github.io/js-translateX-slider/" target="_blank">View
-            Project</a>
-        </div>
-    </div>
-</section>
-
-<section class="main" id="resume">
-    <p>This is content in the resume section!</p>
-</section>
-
-<section class="main" id="contact">
-    <p>This is content in the contact section!</p>
-</section>
+    </section>
+</section> <!-- End of main section container-fluid -->
 
 <footer>
-    <p>&copy; 2023 Your Website. All rights reserved.</p>
+    <div class="footer-content">
+        <div class="copyright">
+            <p>&copy; 2023 Manoj Kumar. All rights reserved.</p>
+        </div>
+
+        <div class="credit">
+            <p>Website design by: <a href="https://www.spiraldigital.co.uk/">Spiral Digital</a></p>
+        </div>
+        <div class="social-media">
+            <a href="#" class="social-media-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-media-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-media-link"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
 </footer>
+
 </body>
+
 
 </html>
