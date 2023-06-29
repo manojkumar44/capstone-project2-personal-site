@@ -812,6 +812,9 @@ header {
 	left: 0;
 	height: auto;
 }
+.contact .row p {
+	margin: 1rem;
+}
 
 }
 
